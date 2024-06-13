@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+}
+
+.root {
+  border-radius: 16px;
+  padding: 24px;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
+  width: 357px;
+  height: 314px;
+  cursor: pointer;
+}
+
+.name {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  margin: 0;
+  margin-bottom: 24px;
+}
+
+.container {
+  display: flex;
+}
+
+.container + .container {
+  margin-top: 12px;
+}
+
+.link {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  text-decoration: none;
+  color: #8189a3;
+  padding-left: 14px;
+}
