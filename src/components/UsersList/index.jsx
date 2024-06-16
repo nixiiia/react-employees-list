@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './UsersList.module.css';
+import styles from './UsersList.module.scss';
 import { User } from '../User';
 import { Skeleton } from '../User/Skeleton';
 

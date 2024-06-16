@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './User.module.css';
+import styles from './User.module.scss';
 
 export const User = ({ user, onClick }) => {
   return (

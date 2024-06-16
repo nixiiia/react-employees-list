@@ -1,0 +1,33 @@
+$font-path: './fonts/';
+
+$proxima-nova-bold-ttf: '#{$font-path}proxima-nova-bold.ttf';
+$proxima-nova-bold-eot: '#{$font-path}proxima-nova-bold.eot';
+$proxima-nova-bold-svg: '#{$font-path}proxima-nova-bold.svg';
+$proxima-nova-bold-woff: '#{$font-path}proxima-nova-bold.woff';
+$proxima-nova-bold-woff2: '#{$font-path}proxima-nova-bold.woff2';
+
+$proxima-nova-regular-ttf: '#{$font-path}proxima-nova-regular.ttf';
+$proxima-nova-regular-eot: '#{$font-path}proxima-nova-regular.eot';
+$proxima-nova-regular-svg: '#{$font-path}proxima-nova-regular.svg';
+$proxima-nova-regular-woff: '#{$font-path}proxima-nova-regular.woff';
+$proxima-nova-regular-woff2: '#{$font-path}proxima-nova-regular.woff2';
+
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url(#{$proxima-nova-bold-ttf}), url(#{$proxima-nova-bold-eot}),
+    url(#{$proxima-nova-bold-svg}), url(#{$proxima-nova-bold-woff}),
+    url(#{$proxima-nova-bold-woff2});
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url(#{$proxima-nova-regular-ttf}), url(#{$proxima-nova-regular-eot}),
+    url(#{$proxima-nova-regular-svg}), url(#{$proxima-nova-regular-woff}),
+    url(#{$proxima-nova-regular-woff2});
+  font-weight: 400;
+}
+
+.font-proxima-nova {
+  font-family: 'Proxima Nova';
+}

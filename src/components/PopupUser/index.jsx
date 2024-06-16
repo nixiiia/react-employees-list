@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './PopupUser.module.css';
+import styles from './PopupUser.module.scss';
 
 export const PopupUser = ({ user, onClose }) => {
   return (

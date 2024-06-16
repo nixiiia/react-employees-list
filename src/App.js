@@ -1,7 +1,7 @@
 import React from 'react';
 import axios from 'axios';
 
-import './App.css';
+import './App.scss';
 
 import { Search } from './components/Search';
 import { UsersList } from './components/UsersList';
